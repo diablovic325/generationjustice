@@ -1,0 +1,107 @@
+<section class="section page-intro">
+    <span class="eyebrow">Membership Application</span>
+    <h1>Apply to become a member.</h1>
+    <p class="lead">
+        The site is designed as a members-only hub. After the form is completed, the applicant is registered,
+        logged in, and given a membership certificate with a registration number and participation level.
+    </p>
+</section>
+
+<section class="section no-top">
+    <div class="section-head">
+        <span class="eyebrow">Participation Levels</span>
+        <h2>Four levels of membership.</h2>
+    </div>
+    <div class="level-grid">
+        <article class="level-card">
+            <span>Level 1</span>
+            <h3>Ambassador</h3>
+            <p>Accepted into the programme and able to participate in online discussions, events, and competitions.</p>
+        </article>
+        <article class="level-card">
+            <span>Level 2</span>
+            <h3>Active Ambassador</h3>
+            <p>Participates in discussions and contributes content for the monthly magazine and online books.</p>
+        </article>
+        <article class="level-card">
+            <span>Level 3</span>
+            <h3>Senior Ambassador</h3>
+            <p>Leads initiatives and events, helps recruit new members, and supports project activity.</p>
+        </article>
+        <article class="level-card elite">
+            <span>Level 4</span>
+            <h3>Country Lead</h3>
+            <p>Elite tier for members who lead activity in their country under the supervision of the Trustees.</p>
+        </article>
+    </div>
+</section>
+
+<section class="section no-top">
+    <div class="form-shell wide">
+        <div>
+            <span class="eyebrow">Required Details</span>
+            <h2>Application form.</h2>
+            <p>
+                This form collects the contact details needed for membership: name, address, email,
+                phone number, country, organization, and interests.
+            </p>
+            <div class="certificate-preview hidden" id="applicationCertificate">
+                <span class="eyebrow">Certificate Ready</span>
+                <h3 id="certificateNamePreview"></h3>
+                <p>Registration number: <strong id="certificateNumberPreview"></strong></p>
+                <a class="button" href="/certificate">Open Certificate</a>
+            </div>
+        </div>
+        <form id="applicationForm">
+            <div class="form-grid">
+                <label>
+                    Full name
+                    <input id="applyName" type="text" placeholder="Maya Johnson" required>
+                </label>
+                <label>
+                    Email
+                    <input id="applyEmail" type="email" placeholder="maya@example.com" required>
+                </label>
+                <label>
+                    Phone
+                    <input id="applyPhone" type="text" placeholder="+44 0000 000000" required>
+                </label>
+                <label>
+                    Country
+                    <input id="applyCountry" type="text" placeholder="United Kingdom" required>
+                </label>
+                <label>
+                    City
+                    <input id="applyCity" type="text" placeholder="London">
+                </label>
+                <label>
+                    Organization / University
+                    <input id="applyOrganization" type="text" placeholder="University or organization">
+                </label>
+            </div>
+            <label>
+                Address
+                <input id="applyAddress" type="text" placeholder="Street, building, apartment, postal code" required>
+            </label>
+            <label>
+                Password
+                <input id="applyPassword" type="password" minlength="4" placeholder="At least 4 characters" required>
+            </label>
+            <label>
+                Membership type
+                <select id="applyMembership">
+                    <option selected>Ambassador</option>
+                    <option>Active Ambassador</option>
+                    <option>Senior Ambassador</option>
+                    <option>Country Lead</option>
+                </select>
+            </label>
+            <label>
+                Interests and project goals
+                <textarea id="applyInterests" placeholder="Tell us about courses, articles, competitions, internships, or Rule of Law projects you want to join."></textarea>
+            </label>
+            <button class="button" type="submit">Submit Application</button>
+            <div class="status" id="applicationStatus"></div>
+        </form>
+    </div>
+</section>

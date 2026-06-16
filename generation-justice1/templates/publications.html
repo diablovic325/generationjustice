@@ -1,0 +1,60 @@
+<section class="section page-intro">
+    <span class="eyebrow">Articles, Magazine, and Books</span>
+    <h1>Publish member work.</h1>
+    <p class="lead">
+        Members and interns can submit articles for the monthly magazine, online books, and future
+        British Legal Centre compilation books with author accreditation.
+    </p>
+</section>
+
+<section class="section no-top split">
+    <div class="panel">
+        <h2>Submit an article</h2>
+        <form id="articleForm">
+            <label>
+                Article title
+                <input id="articleTitle" type="text" required>
+            </label>
+            <label>
+                Category
+                <select id="articleCategory">
+                    <option>Rule of Law News</option>
+                    <option>Legal Writing</option>
+                    <option>Student Project</option>
+                    <option>Case Comment</option>
+                    <option>Book Chapter Candidate</option>
+                </select>
+            </label>
+            <label>
+                Abstract
+                <textarea id="articleAbstract" placeholder="Write a short abstract for editorial review." required></textarea>
+            </label>
+            <button class="button" type="submit">Submit Article</button>
+            <div class="status" id="articleStatus"></div>
+        </form>
+    </div>
+    <div class="panel">
+        <h2>Your article submissions</h2>
+        <div id="articleSubmissionList">__USER_ARTICLES__</div>
+    </div>
+</section>
+
+<section class="section no-top">
+    <div class="section-head">
+        <span class="eyebrow">Monthly Magazine</span>
+        <h2>Rule of Law news and member articles.</h2>
+    </div>
+    <div class="resource-grid">
+        __MAGAZINES__
+    </div>
+</section>
+
+<section class="section no-top">
+    <div class="section-head">
+        <span class="eyebrow">Books</span>
+        <h2>Compilation books and legal texts.</h2>
+    </div>
+    <div class="resource-grid">
+        __BOOKS__
+    </div>
+</section>

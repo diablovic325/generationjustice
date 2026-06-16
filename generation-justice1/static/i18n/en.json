@@ -1,0 +1,173 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "Who We Are",
+    "work": "What We Do",
+    "code": "Code",
+    "apply": "Apply",
+    "certificates": "Certificates",
+    "hub": "Hub",
+    "discussions": "Discussions",
+    "competitions": "Competitions",
+    "lessons": "Lessons",
+    "internships": "Internships",
+    "courses": "Courses",
+    "publications": "Publications",
+    "panels": "Panels",
+    "broadcast": "Broadcast",
+    "donate": "Donate"
+  },
+  "language": {
+    "label": "Language"
+  },
+  "footer": {
+    "summary": "Member applications, certificates, courses, publications, internships, and Rule of Law broadcasts."
+  },
+  "login": {
+    "member": {
+      "button": "Member Login",
+      "title": "Member Login",
+      "help": "For students, lawyers, and project members.",
+      "hint": "Member demo: demo@generationjustice.org / demo123"
+    },
+    "organizer": {
+      "button": "Organizer Login",
+      "title": "Organizer Login",
+      "help": "For organizers who moderate comments and support project activity.",
+      "hint": "Organizer demo: organizer@generationjustice.org / organizer123"
+    },
+    "admin": {
+      "button": "Admin Login",
+      "title": "Admin Login",
+      "help": "For main project administrators and leadership accounts.",
+      "hint": "Admin demo: admin@generationjustice.org / admin123"
+    },
+    "logout": "Log Out",
+    "close": "Close login",
+    "email": "Email",
+    "password": "Password",
+    "submit": "Log In",
+    "applyInstead": "Apply Instead"
+  },
+  "home": {
+    "hero": {
+      "eyebrow": "Members-only Rule of Law hub",
+      "title": "Generation Justice",
+      "lead": "A central membership site for students and young professionals who want to study the Rule of Law, publish legal writing, join discussions, attend live lessons, and volunteer for country projects.",
+      "apply": "Apply for Membership",
+      "login": "Member Login",
+      "about": "Who We Are",
+      "imageAlt": "British Legal Centre homepage training banner",
+      "captionKicker": "British Legal Centre",
+      "captionTitle": "Legal education with international reach"
+    },
+    "stats": {
+      "courses": {
+        "value": "Free",
+        "label": "member courses"
+      },
+      "activities": {
+        "value": "12/year",
+        "label": "monthly activities"
+      },
+      "projects": {
+        "value": "Global",
+        "label": "country projects"
+      }
+    },
+    "carousel": {
+      "eyebrow": "Shared principles",
+      "title": "Justice, education, and cooperation in action.",
+      "ariaLabel": "Rule of Law themes",
+      "justice": {
+        "alt": "Classical courthouse columns representing justice",
+        "kicker": "Justice",
+        "title": "Independent institutions and fair process."
+      },
+      "education": {
+        "alt": "Students studying in a library",
+        "kicker": "Education",
+        "title": "Legal learning made clear and practical."
+      },
+      "ruleOfLaw": {
+        "alt": "Legal documents and a pen on a desk",
+        "kicker": "Rule of Law",
+        "title": "Rules that protect rights and guide power."
+      },
+      "cooperation": {
+        "alt": "International team collaborating around a table",
+        "kicker": "International cooperation",
+        "title": "Young leaders working across borders."
+      },
+      "humanRights": {
+        "alt": "Law library shelves representing human rights study",
+        "kicker": "Human rights",
+        "title": "Dignity, voice, and protection for every person."
+      }
+    },
+    "how": {
+      "eyebrow": "How it works",
+      "title": "Apply first, then enter the member hub.",
+      "apply": {
+        "title": "Submit the membership form",
+        "body": "Applicants provide name, address, email, country, phone number, and project interests."
+      },
+      "certificate": {
+        "title": "Receive a certificate",
+        "body": "The site automatically creates a registration number and printable membership certificate."
+      },
+      "access": {
+        "title": "Access member services",
+        "body": "Courses, discussions, competitions, broadcasts, internships, publications, and panels are behind login."
+      }
+    }
+  },
+  "carousel": {
+    "previous": "Previous slide",
+    "next": "Next slide",
+    "pagination": "Carousel pagination",
+    "goToSlide": "Go to slide"
+  },
+  "donate": {
+    "page": {
+      "eyebrow": "Future Donate Section",
+      "title": "A prepared giving experience, ready for payments later.",
+      "lead": "The public payment flow is intentionally disabled for now, but the frontend and backend are structured for Stripe integration."
+    },
+    "readiness": {
+      "title": "Prepared for",
+      "oneTime": "One-time donations",
+      "monthly": "Monthly donations",
+      "annual": "Annual donations",
+      "tiers": "Bronze, Silver, Gold, and Platinum tiers",
+      "custom": "Custom donation amounts"
+    },
+    "widget": {
+      "eyebrow": "Donation system preparation",
+      "title": "Support options are ready for a future Stripe checkout.",
+      "body": "This placeholder keeps the donation experience designed and structured while payments remain disabled."
+    },
+    "frequency": {
+      "label": "Donation frequency",
+      "oneTime": "One-time",
+      "monthly": "Monthly",
+      "annual": "Annual"
+    },
+    "tiers": {
+      "label": "Donation tier",
+      "bronze": "Bronze",
+      "silver": "Silver",
+      "gold": "Gold",
+      "platinum": "Platinum"
+    },
+    "custom": {
+      "label": "Custom amount",
+      "placeholder": "Optional"
+    },
+    "previewButton": "Preview future donation",
+    "note": "Payments are not active yet. This form is ready for a future Stripe Checkout session.",
+    "status": {
+      "prepared": "Donation preview prepared. Payments are not active yet."
+    }
+  }
+}

@@ -1,0 +1,63 @@
+<section class="section page-intro">
+    <span class="eyebrow">Broadcast Center</span>
+    <h1>Run a broadcast from any view or page.</h1>
+    <p class="lead">
+        Members can publish site announcements from this page. For live lessons, use the Lessons page,
+        where Zoom and YouTube links transfer members directly to the external live broadcast.
+    </p>
+</section>
+
+<section class="section no-top">
+    <div class="broadcast-board">
+        <div class="broadcast-preview">
+            <span class="eyebrow light">Live Preview</span>
+            <h2 id="broadcastTitlePreview">Justice Weekly Live</h2>
+            <p id="broadcastMessagePreview">Prepare an announcement for members, students, and community partners.</p>
+            <small id="broadcastTargetPreview">All pages</small>
+            <button class="button" id="startBroadcastButton" type="button">Start Broadcast</button>
+        </div>
+        <div class="panel">
+            <form id="broadcastForm">
+                <label>
+                    Broadcast title
+                    <input id="broadcastTitle" type="text" value="Justice Weekly Live" required>
+                </label>
+                <label>
+                    Target view or page
+                    <select id="broadcastTarget">
+                        <option>Home page</option>
+                        <option>Who We Are page</option>
+                        <option>What We Do page</option>
+                        <option>Membership page</option>
+                        <option>Member Hub</option>
+                        <option>Discussions page</option>
+                        <option>Competitions page</option>
+                        <option>Lessons page</option>
+                        <option>Internships page</option>
+                        <option>Courses page</option>
+                        <option>Publications page</option>
+                        <option>Panel Discussions page</option>
+                        <option>Donate page</option>
+                        <option selected>All pages</option>
+                    </select>
+                </label>
+                <label>
+                    Message
+                    <textarea id="broadcastMessage" required>Prepare an announcement for members, students, and community partners.</textarea>
+                </label>
+                <button class="button secondary" type="submit">Update Preview</button>
+                <div class="status" id="broadcastStatus"></div>
+            </form>
+        </div>
+    </div>
+</section>
+
+<section class="section no-top">
+    <div class="section-head">
+        <span class="eyebrow">Broadcast History</span>
+        <h2>Recent broadcasts.</h2>
+    </div>
+    <div class="broadcast-list" id="broadcastList">
+        __BROADCASTS__
+    </div>
+</section>

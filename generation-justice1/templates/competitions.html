@@ -1,0 +1,43 @@
+<section class="section page-intro">
+    <span class="eyebrow">Essay Competitions</span>
+    <h1>Monthly winners and new essay entries.</h1>
+    <p class="lead">
+        Announce the winners of each month's best essay competition and collect new entries from members.
+    </p>
+</section>
+
+<section class="section no-top split">
+    <div class="panel">
+        <h2>Submit an essay</h2>
+        <form id="essayForm">
+            <label>
+                Essay title
+                <input id="essayTitle" type="text" required>
+            </label>
+            <label>
+                Country
+                <input id="essayCountry" type="text" required>
+            </label>
+            <label>
+                Essay summary
+                <textarea id="essaySummary" placeholder="Paste the essay abstract or summary for review." required></textarea>
+            </label>
+            <button class="button" type="submit">Submit Essay</button>
+            <div class="status" id="essayStatus"></div>
+        </form>
+    </div>
+    <div class="panel">
+        <h2>Your essay submissions</h2>
+        <div id="essaySubmissionList">__USER_ESSAYS__</div>
+    </div>
+</section>
+
+<section class="section no-top">
+    <div class="section-head">
+        <span class="eyebrow">Winners</span>
+        <h2>Monthly competition winners.</h2>
+    </div>
+    <div class="resource-grid">
+        __WINNERS__
+    </div>
+</section>

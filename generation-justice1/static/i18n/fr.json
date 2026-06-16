@@ -1,0 +1,173 @@
+{
+  "nav": {
+    "home": "Accueil",
+    "about": "Qui nous sommes",
+    "work": "Nos actions",
+    "code": "Code",
+    "apply": "Postuler",
+    "certificates": "Certificats",
+    "hub": "Hub",
+    "discussions": "Discussions",
+    "competitions": "Concours",
+    "lessons": "Cours",
+    "internships": "Stages",
+    "courses": "Formations",
+    "publications": "Publications",
+    "panels": "Panels",
+    "broadcast": "Annonces",
+    "donate": "Donner"
+  },
+  "language": {
+    "label": "Langue"
+  },
+  "footer": {
+    "summary": "Candidatures de membres, certificats, formations, publications, stages et annonces sur l'Etat de droit."
+  },
+  "login": {
+    "member": {
+      "button": "Connexion membre",
+      "title": "Connexion membre",
+      "help": "Pour les etudiants, juristes et membres du projet.",
+      "hint": "Demo membre: demo@generationjustice.org / demo123"
+    },
+    "organizer": {
+      "button": "Connexion organisateur",
+      "title": "Connexion organisateur",
+      "help": "Pour les organisateurs qui moderent les commentaires et soutiennent l'activite du projet.",
+      "hint": "Demo organisateur: organizer@generationjustice.org / organizer123"
+    },
+    "admin": {
+      "button": "Connexion admin",
+      "title": "Connexion admin",
+      "help": "Pour les administrateurs principaux et les comptes de direction.",
+      "hint": "Demo admin: admin@generationjustice.org / admin123"
+    },
+    "logout": "Se deconnecter",
+    "close": "Fermer la connexion",
+    "email": "Email",
+    "password": "Mot de passe",
+    "submit": "Se connecter",
+    "applyInstead": "Postuler plutot"
+  },
+  "home": {
+    "hero": {
+      "eyebrow": "Hub reserve aux membres sur l'Etat de droit",
+      "title": "Generation Justice",
+      "lead": "Un site central pour les etudiants et jeunes professionnels qui souhaitent etudier l'Etat de droit, publier des textes juridiques, rejoindre des discussions, suivre des cours en direct et participer a des projets nationaux.",
+      "apply": "Demander l'adhesion",
+      "login": "Connexion membre",
+      "about": "Qui nous sommes",
+      "imageAlt": "Banniere de formation de la page d'accueil du British Legal Centre",
+      "captionKicker": "British Legal Centre",
+      "captionTitle": "Education juridique a portee internationale"
+    },
+    "stats": {
+      "courses": {
+        "value": "Gratuit",
+        "label": "formations membres"
+      },
+      "activities": {
+        "value": "12/an",
+        "label": "activites mensuelles"
+      },
+      "projects": {
+        "value": "Global",
+        "label": "projets par pays"
+      }
+    },
+    "carousel": {
+      "eyebrow": "Principes communs",
+      "title": "Justice, education et cooperation en action.",
+      "ariaLabel": "Themes de l'Etat de droit",
+      "justice": {
+        "alt": "Colonnes de palais de justice representant la justice",
+        "kicker": "Justice",
+        "title": "Institutions independantes et procedure equitable."
+      },
+      "education": {
+        "alt": "Etudiants travaillant dans une bibliotheque",
+        "kicker": "Education",
+        "title": "Un apprentissage juridique clair et pratique."
+      },
+      "ruleOfLaw": {
+        "alt": "Documents juridiques et stylo sur un bureau",
+        "kicker": "Etat de droit",
+        "title": "Des regles qui protegent les droits et encadrent le pouvoir."
+      },
+      "cooperation": {
+        "alt": "Equipe internationale collaborant autour d'une table",
+        "kicker": "Cooperation internationale",
+        "title": "De jeunes leaders travaillent au-dela des frontieres."
+      },
+      "humanRights": {
+        "alt": "Rayonnages d'une bibliotheque juridique sur les droits humains",
+        "kicker": "Droits humains",
+        "title": "Dignite, voix et protection pour chaque personne."
+      }
+    },
+    "how": {
+      "eyebrow": "Fonctionnement",
+      "title": "Postulez d'abord, puis entrez dans le hub des membres.",
+      "apply": {
+        "title": "Envoyer le formulaire d'adhesion",
+        "body": "Les candidats indiquent leur nom, adresse, email, pays, telephone et centres d'interet."
+      },
+      "certificate": {
+        "title": "Recevoir un certificat",
+        "body": "Le site cree automatiquement un numero d'inscription et un certificat de membre imprimable."
+      },
+      "access": {
+        "title": "Acceder aux services membres",
+        "body": "Formations, discussions, concours, annonces, stages, publications et panels sont accessibles apres connexion."
+      }
+    }
+  },
+  "carousel": {
+    "previous": "Diapositive precedente",
+    "next": "Diapositive suivante",
+    "pagination": "Pagination du carrousel",
+    "goToSlide": "Aller a la diapositive"
+  },
+  "donate": {
+    "page": {
+      "eyebrow": "Future section Donner",
+      "title": "Une experience de don preparee pour des paiements ulterieurs.",
+      "lead": "Le parcours de paiement public est volontairement desactive pour l'instant, mais le frontend et le backend sont structures pour Stripe."
+    },
+    "readiness": {
+      "title": "Prepare pour",
+      "oneTime": "Dons ponctuels",
+      "monthly": "Dons mensuels",
+      "annual": "Dons annuels",
+      "tiers": "Niveaux Bronze, Silver, Gold et Platinum",
+      "custom": "Montants personnalises"
+    },
+    "widget": {
+      "eyebrow": "Preparation du systeme de dons",
+      "title": "Les options de soutien sont pretes pour un futur checkout Stripe.",
+      "body": "Ce placeholder garde l'experience de don concue et structuree pendant que les paiements restent desactives."
+    },
+    "frequency": {
+      "label": "Frequence du don",
+      "oneTime": "Ponctuel",
+      "monthly": "Mensuel",
+      "annual": "Annuel"
+    },
+    "tiers": {
+      "label": "Niveau de don",
+      "bronze": "Bronze",
+      "silver": "Silver",
+      "gold": "Gold",
+      "platinum": "Platinum"
+    },
+    "custom": {
+      "label": "Montant personnalise",
+      "placeholder": "Optionnel"
+    },
+    "previewButton": "Previsualiser le futur don",
+    "note": "Les paiements ne sont pas encore actifs. Ce formulaire est pret pour une future session Stripe Checkout.",
+    "status": {
+      "prepared": "Apercu de don prepare. Les paiements ne sont pas encore actifs."
+    }
+  }
+}

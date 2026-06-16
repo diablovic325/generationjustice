@@ -1,0 +1,17 @@
+[Unit]
+Description=Generation Justice FastAPI application
+After=network.target
+
+[Service]
+User=www-data
+Group=www-data
+WorkingDirectory=__APP_DIR__
+Environment=PORT=__PORT__
+Environment=DATABASE_PATH=__DATABASE_PATH__
+Environment=PYTHONUNBUFFERED=1
+ExecStart=__APP_DIR__/.venv/bin/python -m uvicorn main:app --host 127.0.0.1 --port __PORT__
+Restart=always
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target

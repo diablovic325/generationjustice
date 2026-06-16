@@ -1,0 +1,173 @@
+{
+  "nav": {
+    "home": "Start",
+    "about": "Wer wir sind",
+    "work": "Was wir tun",
+    "code": "Kodex",
+    "apply": "Bewerben",
+    "certificates": "Zertifikate",
+    "hub": "Hub",
+    "discussions": "Diskussionen",
+    "competitions": "Wettbewerbe",
+    "lessons": "Lektionen",
+    "internships": "Praktika",
+    "courses": "Kurse",
+    "publications": "Publikationen",
+    "panels": "Panels",
+    "broadcast": "Ankuendigungen",
+    "donate": "Spenden"
+  },
+  "language": {
+    "label": "Sprache"
+  },
+  "footer": {
+    "summary": "Mitgliedsantraege, Zertifikate, Kurse, Publikationen, Praktika und Rule-of-Law-Ankuendigungen."
+  },
+  "login": {
+    "member": {
+      "button": "Mitglieder-Login",
+      "title": "Mitglieder-Login",
+      "help": "Fuer Studierende, Juristinnen und Juristen sowie Projektmitglieder.",
+      "hint": "Mitglieder-Demo: demo@generationjustice.org / demo123"
+    },
+    "organizer": {
+      "button": "Organisator-Login",
+      "title": "Organisator-Login",
+      "help": "Fuer Organisatoren, die Kommentare moderieren und Projektaktivitaeten unterstuetzen.",
+      "hint": "Organisator-Demo: organizer@generationjustice.org / organizer123"
+    },
+    "admin": {
+      "button": "Admin-Login",
+      "title": "Admin-Login",
+      "help": "Fuer Hauptadministratoren und Leitungskonten.",
+      "hint": "Admin-Demo: admin@generationjustice.org / admin123"
+    },
+    "logout": "Abmelden",
+    "close": "Login schliessen",
+    "email": "Email",
+    "password": "Passwort",
+    "submit": "Einloggen",
+    "applyInstead": "Stattdessen bewerben"
+  },
+  "home": {
+    "hero": {
+      "eyebrow": "Mitglieder-Hub zum Rechtsstaat",
+      "title": "Generation Justice",
+      "lead": "Eine zentrale Mitgliederseite fuer Studierende und junge Berufstaetige, die den Rechtsstaat studieren, juristische Texte veroeffentlichen, diskutieren, Live-Lektionen besuchen und an Laenderprojekten mitarbeiten moechten.",
+      "apply": "Mitgliedschaft beantragen",
+      "login": "Mitglieder-Login",
+      "about": "Wer wir sind",
+      "imageAlt": "Trainingsbanner der British Legal Centre Startseite",
+      "captionKicker": "British Legal Centre",
+      "captionTitle": "Juristische Bildung mit internationaler Reichweite"
+    },
+    "stats": {
+      "courses": {
+        "value": "Kostenlos",
+        "label": "Mitgliederkurse"
+      },
+      "activities": {
+        "value": "12/Jahr",
+        "label": "monatliche Aktivitaeten"
+      },
+      "projects": {
+        "value": "Global",
+        "label": "Laenderprojekte"
+      }
+    },
+    "carousel": {
+      "eyebrow": "Gemeinsame Prinzipien",
+      "title": "Gerechtigkeit, Bildung und Zusammenarbeit in Aktion.",
+      "ariaLabel": "Themen des Rechtsstaats",
+      "justice": {
+        "alt": "Klassische Gerichtssaeulen als Symbol fuer Gerechtigkeit",
+        "kicker": "Gerechtigkeit",
+        "title": "Unabhaengige Institutionen und faire Verfahren."
+      },
+      "education": {
+        "alt": "Studierende in einer Bibliothek",
+        "kicker": "Bildung",
+        "title": "Juristisches Lernen klar und praktisch."
+      },
+      "ruleOfLaw": {
+        "alt": "Juristische Dokumente und ein Stift auf einem Schreibtisch",
+        "kicker": "Rechtsstaat",
+        "title": "Regeln, die Rechte schuetzen und Macht lenken."
+      },
+      "cooperation": {
+        "alt": "Internationales Team arbeitet an einem Tisch zusammen",
+        "kicker": "Internationale Zusammenarbeit",
+        "title": "Junge Fuehrungskraefte arbeiten ueber Grenzen hinweg."
+      },
+      "humanRights": {
+        "alt": "Regale einer juristischen Bibliothek zum Thema Menschenrechte",
+        "kicker": "Menschenrechte",
+        "title": "Wuerde, Stimme und Schutz fuer jede Person."
+      }
+    },
+    "how": {
+      "eyebrow": "So funktioniert es",
+      "title": "Erst bewerben, dann den Mitglieder-Hub betreten.",
+      "apply": {
+        "title": "Mitgliedsformular absenden",
+        "body": "Bewerber geben Name, Adresse, Email, Land, Telefonnummer und Projektinteressen an."
+      },
+      "certificate": {
+        "title": "Zertifikat erhalten",
+        "body": "Die Website erstellt automatisch eine Registrierungsnummer und ein druckbares Mitgliedszertifikat."
+      },
+      "access": {
+        "title": "Mitgliederservices nutzen",
+        "body": "Kurse, Diskussionen, Wettbewerbe, Ankuendigungen, Praktika, Publikationen und Panels liegen hinter dem Login."
+      }
+    }
+  },
+  "carousel": {
+    "previous": "Vorherige Folie",
+    "next": "Naechste Folie",
+    "pagination": "Karussell-Paginierung",
+    "goToSlide": "Zur Folie"
+  },
+  "donate": {
+    "page": {
+      "eyebrow": "Zukuenftiger Spendenbereich",
+      "title": "Eine vorbereitete Spendenoberflaeche fuer spaetere Zahlungen.",
+      "lead": "Der oeffentliche Zahlungsfluss ist derzeit bewusst deaktiviert, aber Frontend und Backend sind fuer Stripe vorbereitet."
+    },
+    "readiness": {
+      "title": "Vorbereitet fuer",
+      "oneTime": "Einmalige Spenden",
+      "monthly": "Monatliche Spenden",
+      "annual": "Jaehrliche Spenden",
+      "tiers": "Bronze-, Silver-, Gold- und Platinum-Stufen",
+      "custom": "Freie Spendenbetraege"
+    },
+    "widget": {
+      "eyebrow": "Vorbereitung des Spendensystems",
+      "title": "Unterstuetzungsoptionen sind fuer ein kuenftiges Stripe Checkout bereit.",
+      "body": "Dieser Platzhalter haelt die Spendenerfahrung gestaltet und strukturiert, waehrend Zahlungen deaktiviert bleiben."
+    },
+    "frequency": {
+      "label": "Spendenhaeufigkeit",
+      "oneTime": "Einmalig",
+      "monthly": "Monatlich",
+      "annual": "Jaehrlich"
+    },
+    "tiers": {
+      "label": "Spendenstufe",
+      "bronze": "Bronze",
+      "silver": "Silver",
+      "gold": "Gold",
+      "platinum": "Platinum"
+    },
+    "custom": {
+      "label": "Freier Betrag",
+      "placeholder": "Optional"
+    },
+    "previewButton": "Zukuenftige Spende ansehen",
+    "note": "Zahlungen sind noch nicht aktiv. Dieses Formular ist fuer eine kuenftige Stripe Checkout Session bereit.",
+    "status": {
+      "prepared": "Spendenvorschau vorbereitet. Zahlungen sind noch nicht aktiv."
+    }
+  }
+}

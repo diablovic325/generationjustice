@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 900" role="img" aria-labelledby="title desc">
+  <title id="title">Generation Justice Logo</title>
+  <desc id="desc">Circular Generation Justice seal in navy and gold with Lady Justice, sword, and scales.</desc>
+  <defs>
+    <style>
+      .navy { fill: #17314f; }
+      .navy-stroke { stroke: #17314f; }
+      .gold { fill: #b99a5b; }
+      .gold-stroke { stroke: #b99a5b; }
+      .white { fill: #ffffff; }
+      .soft { fill: #eef2f5; }
+      text { font-family: Arial, Helvetica, sans-serif; font-weight: 700; letter-spacing: 4px; }
+    </style>
+    <path id="topArc" d="M 150 304 A 355 355 0 0 1 750 304" />
+    <path id="bottomArc" d="M 130 505 A 385 385 0 0 0 770 505" />
+  </defs>
+
+  <circle cx="450" cy="450" r="444" class="white"/>
+  <circle cx="450" cy="450" r="430" fill="none" class="navy-stroke" stroke-width="28"/>
+  <circle cx="450" cy="450" r="292" fill="none" class="navy-stroke" stroke-width="18"/>
+  <circle cx="91" cy="357" r="18" class="gold"/>
+  <circle cx="809" cy="357" r="18" class="gold"/>
+
+  <text font-size="50" class="navy">
+    <textPath href="#topArc" startOffset="50%" text-anchor="middle">FIAT JUSTITIA RUAT CAELUM</textPath>
+  </text>
+  <text font-size="50" class="navy">
+    <textPath href="#bottomArc" startOffset="50%" text-anchor="middle">THE NEXT GENERATION RISING FOR JUSTICE</textPath>
+  </text>
+
+  <g transform="translate(0,8)">
+    <path d="M327 597 C374 544 386 484 366 417 C352 370 378 329 421 319 C454 311 486 330 498 363 C510 396 495 435 465 452 C492 468 536 477 599 476 C625 476 641 492 638 515 C633 551 593 603 535 628 C480 651 393 647 327 597 Z" class="soft" stroke="#17314f" stroke-width="13" stroke-linejoin="round"/>
+    <path d="M366 418 C400 495 382 554 327 597 C404 642 503 648 566 601 C506 616 450 600 412 550 C381 510 366 466 366 418 Z" fill="#dfe7ed" stroke="#17314f" stroke-width="9" stroke-linejoin="round"/>
+    <path d="M397 350 C425 331 457 333 483 358" fill="none" class="navy-stroke" stroke-width="12" stroke-linecap="round"/>
+    <path d="M483 358 C527 339 552 351 579 386 C535 373 512 401 497 427" fill="none" class="navy-stroke" stroke-width="12" stroke-linecap="round"/>
+    <path d="M444 337 C469 337 485 355 485 383 C485 411 469 433 445 433 C421 433 405 411 405 383 C405 355 419 337 444 337 Z" class="white" stroke="#17314f" stroke-width="10"/>
+    <path d="M405 390 C365 381 349 348 341 306" fill="none" class="navy-stroke" stroke-width="13" stroke-linecap="round"/>
+    <path d="M341 306 L476 183" fill="none" class="navy-stroke" stroke-width="11" stroke-linecap="round"/>
+    <path d="M476 183 L489 177 L482 190 Z" class="navy"/>
+    <path d="M348 294 L376 318" fill="none" class="gold-stroke" stroke-width="9" stroke-linecap="round"/>
+    <circle cx="340" cy="307" r="13" class="white" stroke="#17314f" stroke-width="8"/>
+    <path d="M504 431 C539 416 572 420 603 441" fill="none" class="navy-stroke" stroke-width="12" stroke-linecap="round"/>
+    <path d="M602 439 L602 515" fill="none" class="gold-stroke" stroke-width="8" stroke-linecap="round"/>
+    <path d="M560 470 L644 470" fill="none" class="gold-stroke" stroke-width="8" stroke-linecap="round"/>
+    <path d="M576 470 L548 523 L604 523 Z" fill="none" class="gold-stroke" stroke-width="8" stroke-linejoin="round"/>
+    <path d="M628 470 L601 523 L656 523 Z" fill="none" class="gold-stroke" stroke-width="8" stroke-linejoin="round"/>
+    <circle cx="602" cy="439" r="11" class="white" stroke="#17314f" stroke-width="8"/>
+    <circle cx="599" cy="404" r="8" class="gold"/>
+  </g>
+</svg>

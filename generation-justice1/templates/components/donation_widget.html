@@ -1,0 +1,50 @@
+<div class="donation-widget" data-donation-widget>
+    <div class="donation-copy">
+        <span class="eyebrow" data-i18n="donate.widget.eyebrow">Donation system preparation</span>
+        <h2 data-i18n="donate.widget.title">Support options are ready for a future Stripe checkout.</h2>
+        <p data-i18n="donate.widget.body">
+            This placeholder keeps the donation experience designed and structured while payments remain disabled.
+        </p>
+    </div>
+    <form class="donation-form" id="donationPreviewForm">
+        <fieldset>
+            <legend data-i18n="donate.frequency.label">Donation frequency</legend>
+            <div class="segmented-control" role="group" aria-label="Donation frequency" data-i18n-attr="aria-label:donate.frequency.label">
+                <button type="button" class="segment is-active" data-donation-frequency="one_time" data-i18n="donate.frequency.oneTime">One-time</button>
+                <button type="button" class="segment" data-donation-frequency="monthly" data-i18n="donate.frequency.monthly">Monthly</button>
+                <button type="button" class="segment" data-donation-frequency="annual" data-i18n="donate.frequency.annual">Annual</button>
+            </div>
+        </fieldset>
+        <fieldset>
+            <legend data-i18n="donate.tiers.label">Donation tier</legend>
+            <div class="donation-tiers">
+                <button type="button" class="donation-tier" data-donation-tier="bronze" data-donation-amount="25">
+                    <strong data-i18n="donate.tiers.bronze">Bronze</strong>
+                    <span>$25</span>
+                </button>
+                <button type="button" class="donation-tier is-active" data-donation-tier="silver" data-donation-amount="50">
+                    <strong data-i18n="donate.tiers.silver">Silver</strong>
+                    <span>$50</span>
+                </button>
+                <button type="button" class="donation-tier" data-donation-tier="gold" data-donation-amount="100">
+                    <strong data-i18n="donate.tiers.gold">Gold</strong>
+                    <span>$100</span>
+                </button>
+                <button type="button" class="donation-tier" data-donation-tier="platinum" data-donation-amount="250">
+                    <strong data-i18n="donate.tiers.platinum">Platinum</strong>
+                    <span>$250</span>
+                </button>
+            </div>
+        </fieldset>
+        <label>
+            <span data-i18n="donate.custom.label">Custom amount</span>
+            <input id="customDonationAmount" type="number" min="1" step="1" placeholder="Optional" data-i18n-attr="placeholder:donate.custom.placeholder">
+        </label>
+        <input id="selectedDonationFrequency" type="hidden" value="one_time">
+        <input id="selectedDonationTier" type="hidden" value="silver">
+        <input id="selectedDonationAmount" type="hidden" value="50">
+        <button class="button" type="submit" data-i18n="donate.previewButton">Preview future donation</button>
+        <p class="muted donation-note" data-i18n="donate.note">Payments are not active yet. This form is ready for a future Stripe Checkout session.</p>
+        <div class="status" id="donationStatus"></div>
+    </form>
+</div>

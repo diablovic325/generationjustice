@@ -1,0 +1,41 @@
+<section class="section page-intro">
+    <span class="eyebrow">Discussion Topics</span>
+    <h1>Launch topics and post detailed replies.</h1>
+    <p class="lead">
+        Members can start discussion topics and reply with longer comments. Use this area for Rule of Law
+        debates, publication ideas, project questions, and lesson follow-up.
+    </p>
+</section>
+
+<section class="section no-top split">
+    <div class="panel">
+        <h2>Start a topic</h2>
+        <form id="topicForm">
+            <label>
+                Topic title
+                <input id="topicTitle" type="text" placeholder="Example: Why is judicial independence important?" required>
+            </label>
+            <label>
+                Opening message
+                <textarea id="topicBody" placeholder="Write the discussion prompt..." required></textarea>
+            </label>
+            <button class="button" type="submit">Launch Topic</button>
+            <div class="status" id="topicStatus"></div>
+        </form>
+    </div>
+    <div class="panel soft-panel">
+        <h2>Discussion rules</h2>
+        <ul class="clean-list">
+            <li>Write in clear English</li>
+            <li>Use respectful argument</li>
+            <li>Support legal claims with reasons</li>
+            <li>Long replies are welcome</li>
+        </ul>
+    </div>
+</section>
+
+<section class="section no-top">
+    <div class="discussion-list" id="discussionList">
+        __DISCUSSIONS__
+    </div>
+</section>

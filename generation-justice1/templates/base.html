@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>__TITLE__</title>
+    <link rel="stylesheet" href="/static/css/styles.css">
+</head>
+<body>
+    <header class="topbar">
+        <div class="header-logo">
+            <a href="/" aria-label="Generation Justice home">
+                <img src="/static/images/gj-logo-horizontal.png" alt="Generation Justice logo">
+            </a>
+        </div>
+        <nav class="nav" aria-label="Main navigation">
+            <div class="links">
+                <a class="__ACTIVE_HOME__" href="/" data-i18n="nav.home">Home</a>
+                <a class="__ACTIVE_ABOUT__" href="/about" data-i18n="nav.about">Who We Are</a>
+                <a class="__ACTIVE_WORK__" href="/what-we-do" data-i18n="nav.work">What We Do</a>
+                <a class="__ACTIVE_CONDUCT__" href="/code-of-conduct" data-i18n="nav.code">Code</a>
+                <a class="__ACTIVE_MEMBERSHIP__" href="/membership" data-i18n="nav.apply">Apply</a>
+                <a class="__ACTIVE_CERTIFICATES__" href="/certificates" data-i18n="nav.certificates">Certificates</a>
+                <a class="__ACTIVE_HUB__" href="/hub" data-i18n="nav.hub">Hub</a>
+                <a class="__ACTIVE_DISCUSSIONS__" href="/discussions" data-i18n="nav.discussions">Discussions</a>
+                <a class="__ACTIVE_COMPETITIONS__" href="/competitions" data-i18n="nav.competitions">Competitions</a>
+                <a class="__ACTIVE_LESSONS__" href="/lessons" data-i18n="nav.lessons">Lessons</a>
+                <a class="__ACTIVE_INTERNSHIPS__" href="/internships" data-i18n="nav.internships">Internships</a>
+                <a class="__ACTIVE_COURSES__" href="/courses" data-i18n="nav.courses">Courses</a>
+                <a class="__ACTIVE_PUBLICATIONS__" href="/publications" data-i18n="nav.publications">Publications</a>
+                <a class="__ACTIVE_PANELS__" href="/panels" data-i18n="nav.panels">Panels</a>
+                <a class="__ACTIVE_BROADCAST__" href="/broadcast" data-i18n="nav.broadcast">Broadcast</a>
+                <label class="language-select-wrap">
+                    <span class="sr-only" data-i18n="language.label">Language</span>
+                    <select id="languageSelector" class="language-selector" aria-label="Language" data-i18n-attr="aria-label:language.label">
+                        <option value="en">EN</option>
+                        <option value="es">ES</option>
+                        <option value="pt">PT</option>
+                        <option value="fr">FR</option>
+                        <option value="de">DE</option>
+                        <option value="it">IT</option>
+                        <option value="ar">AR</option>
+                    </select>
+                </label>
+                <button class="text-button __LOGIN_HIDDEN__" id="openLoginButton" type="button" data-login-mode="member" data-i18n="login.member.button">Member Login</button>
+                <button class="text-button __LOGIN_HIDDEN__" id="openOrganizerLoginButton" type="button" data-login-mode="organizer" data-i18n="login.organizer.button">Organizer Login</button>
+                <button class="text-button __LOGIN_HIDDEN__" id="openAdminLoginButton" type="button" data-login-mode="admin" data-i18n="login.admin.button">Admin Login</button>
+                <button class="text-button __LOGOUT_HIDDEN__" id="logoutButton" type="button" data-i18n="login.logout">Log Out</button>
+                <span class="__MEMBER_CHIP_CLASS__" id="memberChip">__MEMBER_CHIP_TEXT__</span>
+            </div>
+        </nav>
+    </header>
+
+    <div id="liveBroadcastBannerHost">
+        __BROADCAST_BANNER__
+    </div>
+
+    <main>
+        __CONTENT__
+    </main>
+
+    <footer>
+        <div class="footer-inner">
+            <strong>Generation Justice</strong>
+            <div class="footer-copy">
+                <span data-i18n="footer.summary">Member applications, certificates, courses, publications, internships, and Rule of Law broadcasts.</span>
+                <span class="footer-contact" id="footerContactLine" data-i18n="footer.contacts">Contacts: details will be added soon.</span>
+            </div>
+        </div>
+    </footer>
+
+    <div class="modal" id="loginModal" aria-hidden="true">
+        <div class="modal-card">
+            <div class="modal-head">
+                <div>
+                    <h2 id="loginTitle" data-i18n="login.member.title">Member Login</h2>
+                    <p id="loginHelp" data-i18n="login.member.help">Use a demo account or apply for membership.</p>
+                </div>
+                <button class="close" id="closeLoginButton" type="button" aria-label="Close login" data-i18n-attr="aria-label:login.close">x</button>
+            </div>
+            <form id="loginForm">
+                <label>
+                    <span data-i18n="login.email">Email</span>
+                    <input id="loginEmail" type="email" value="demo@generationjustice.org" required>
+                </label>
+                <label>
+                    <span data-i18n="login.password">Password</span>
+                    <input id="loginPassword" type="password" value="demo123" required>
+                </label>
+                <p class="muted" id="loginDemoHint" data-i18n="login.member.hint">
+                    Member demo: demo@generationjustice.org / demo123
+                </p>
+                <button class="button" type="submit" data-i18n="login.submit">Log In</button>
+                <a class="button secondary" href="/membership" data-i18n="login.applyInstead">Apply Instead</a>
+            </form>
+            <div class="status" id="loginStatus"></div>
+        </div>
+    </div>
+
+    <script src="/static/js/i18n.js"></script>
+    <script src="/static/js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,173 @@
+{
+  "nav": {
+    "home": "Inicio",
+    "about": "Quem somos",
+    "work": "O que fazemos",
+    "code": "Codigo",
+    "apply": "Candidatar",
+    "certificates": "Certificados",
+    "hub": "Hub",
+    "discussions": "Debates",
+    "competitions": "Concursos",
+    "lessons": "Aulas",
+    "internships": "Estagios",
+    "courses": "Cursos",
+    "publications": "Publicacoes",
+    "panels": "Paineis",
+    "broadcast": "Avisos",
+    "donate": "Doar"
+  },
+  "language": {
+    "label": "Idioma"
+  },
+  "footer": {
+    "summary": "Candidaturas de membros, certificados, cursos, publicacoes, estagios e transmissoes sobre o Estado de Direito."
+  },
+  "login": {
+    "member": {
+      "button": "Entrar como membro",
+      "title": "Entrar como membro",
+      "help": "Para estudantes, advogados e membros do projeto.",
+      "hint": "Demo membro: demo@generationjustice.org / demo123"
+    },
+    "organizer": {
+      "button": "Entrar organizador",
+      "title": "Entrar organizador",
+      "help": "Para organizadores que moderam comentarios e apoiam a atividade do projeto.",
+      "hint": "Demo organizador: organizer@generationjustice.org / organizer123"
+    },
+    "admin": {
+      "button": "Entrar admin",
+      "title": "Entrar admin",
+      "help": "Para administradores principais e contas de lideranca.",
+      "hint": "Demo admin: admin@generationjustice.org / admin123"
+    },
+    "logout": "Sair",
+    "close": "Fechar login",
+    "email": "Email",
+    "password": "Senha",
+    "submit": "Entrar",
+    "applyInstead": "Candidatar-se"
+  },
+  "home": {
+    "hero": {
+      "eyebrow": "Hub privado sobre o Estado de Direito",
+      "title": "Generation Justice",
+      "lead": "Um site central de membros para estudantes e jovens profissionais que querem estudar o Estado de Direito, publicar textos juridicos, participar de debates, assistir a aulas ao vivo e atuar em projetos nacionais.",
+      "apply": "Candidatar-se",
+      "login": "Entrar como membro",
+      "about": "Quem somos",
+      "imageAlt": "Banner de formacao da pagina principal do British Legal Centre",
+      "captionKicker": "British Legal Centre",
+      "captionTitle": "Educacao juridica com alcance internacional"
+    },
+    "stats": {
+      "courses": {
+        "value": "Gratuitos",
+        "label": "cursos para membros"
+      },
+      "activities": {
+        "value": "12/ano",
+        "label": "atividades mensais"
+      },
+      "projects": {
+        "value": "Global",
+        "label": "projetos por pais"
+      }
+    },
+    "carousel": {
+      "eyebrow": "Principios compartilhados",
+      "title": "Justica, educacao e cooperacao em acao.",
+      "ariaLabel": "Temas do Estado de Direito",
+      "justice": {
+        "alt": "Colunas de tribunal classico representando a justica",
+        "kicker": "Justica",
+        "title": "Instituicoes independentes e processo justo."
+      },
+      "education": {
+        "alt": "Estudantes estudando em uma biblioteca",
+        "kicker": "Educacao",
+        "title": "Aprendizagem juridica clara e pratica."
+      },
+      "ruleOfLaw": {
+        "alt": "Documentos juridicos e uma caneta sobre a mesa",
+        "kicker": "Estado de Direito",
+        "title": "Regras que protegem direitos e orientam o poder."
+      },
+      "cooperation": {
+        "alt": "Equipe internacional colaborando ao redor de uma mesa",
+        "kicker": "Cooperacao internacional",
+        "title": "Jovens lideres trabalhando alem das fronteiras."
+      },
+      "humanRights": {
+        "alt": "Estantes de biblioteca juridica representando estudo de direitos humanos",
+        "kicker": "Direitos humanos",
+        "title": "Dignidade, voz e protecao para cada pessoa."
+      }
+    },
+    "how": {
+      "eyebrow": "Como funciona",
+      "title": "Candidate-se primeiro e depois entre no hub de membros.",
+      "apply": {
+        "title": "Envie o formulario de membro",
+        "body": "Os candidatos fornecem nome, endereco, email, pais, telefone e interesses no projeto."
+      },
+      "certificate": {
+        "title": "Receba um certificado",
+        "body": "O site cria automaticamente um numero de registro e um certificado de membro imprimivel."
+      },
+      "access": {
+        "title": "Acesse servicos de membros",
+        "body": "Cursos, debates, concursos, transmissoes, estagios, publicacoes e paineis ficam atras do login."
+      }
+    }
+  },
+  "carousel": {
+    "previous": "Slide anterior",
+    "next": "Proximo slide",
+    "pagination": "Paginacao do carrossel",
+    "goToSlide": "Ir para o slide"
+  },
+  "donate": {
+    "page": {
+      "eyebrow": "Futura secao Doar",
+      "title": "Uma experiencia de apoio preparada para pagamentos futuros.",
+      "lead": "O fluxo publico de pagamento esta desativado por enquanto, mas o frontend e o backend estao estruturados para integracao com Stripe."
+    },
+    "readiness": {
+      "title": "Preparado para",
+      "oneTime": "Doacoes unicas",
+      "monthly": "Doacoes mensais",
+      "annual": "Doacoes anuais",
+      "tiers": "Niveis Bronze, Silver, Gold e Platinum",
+      "custom": "Valores personalizados"
+    },
+    "widget": {
+      "eyebrow": "Preparacao do sistema de doacoes",
+      "title": "As opcoes de apoio estao prontas para um futuro Stripe checkout.",
+      "body": "Este placeholder mantem a experiencia de doacao desenhada e estruturada enquanto os pagamentos permanecem desativados."
+    },
+    "frequency": {
+      "label": "Frequencia da doacao",
+      "oneTime": "Unica",
+      "monthly": "Mensal",
+      "annual": "Anual"
+    },
+    "tiers": {
+      "label": "Nivel da doacao",
+      "bronze": "Bronze",
+      "silver": "Silver",
+      "gold": "Gold",
+      "platinum": "Platinum"
+    },
+    "custom": {
+      "label": "Valor personalizado",
+      "placeholder": "Opcional"
+    },
+    "previewButton": "Prever doacao futura",
+    "note": "Pagamentos ainda nao estao ativos. Este formulario esta pronto para uma futura sessao do Stripe Checkout.",
+    "status": {
+      "prepared": "Previa de doacao preparada. Pagamentos ainda nao estao ativos."
+    }
+  }
+}

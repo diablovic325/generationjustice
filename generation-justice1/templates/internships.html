@@ -1,0 +1,41 @@
+<section class="section page-intro">
+    <span class="eyebrow">Internships and Country Projects</span>
+    <h1>Volunteer for Rule of Law projects in your country.</h1>
+    <p class="lead">
+        Members can view active projects by country and register interest in helping local teams.
+    </p>
+</section>
+
+<section class="section no-top split">
+    <div class="panel">
+        <h2>Volunteer form</h2>
+        <form id="internshipForm">
+            <label>
+                Choose a country project
+                <select id="internshipProject" required>
+                    __PROJECT_OPTIONS__
+                </select>
+            </label>
+            <label>
+                Motivation
+                <textarea id="internshipMotivation" placeholder="Explain how you want to help this project." required></textarea>
+            </label>
+            <button class="button" type="submit">Register as Volunteer</button>
+            <div class="status" id="internshipStatus"></div>
+        </form>
+    </div>
+    <div class="panel">
+        <h2>Your internship applications</h2>
+        <div id="internshipSubmissionList">__USER_INTERNSHIPS__</div>
+    </div>
+</section>
+
+<section class="section no-top">
+    <div class="section-head">
+        <span class="eyebrow">Projects</span>
+        <h2>Active country projects.</h2>
+    </div>
+    <div class="resource-grid">
+        __PROJECTS__
+    </div>
+</section>
